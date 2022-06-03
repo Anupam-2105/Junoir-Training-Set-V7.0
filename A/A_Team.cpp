@@ -15,7 +15,7 @@ void solve(){
     for(ll i=0;i<n;i++){
         string s;
         cin>>s;
-        ll cnt = count(s.begin(), s.end(), "1");
+        cnt = count(s.begin(),s.end(),'A');
         if(cnt>1) ans++;
     }
     
