@@ -6,20 +6,16 @@ ll mx= -1999999;
 ll mn= 1e7;
 
 void solve(){
-    ll a[5][5];
-    ll r,c,ans;
-    for(int i=0;i<5;i++){
-        for(int j=0;j<5;j++){
-            cin>>a[i][j];
-            if(a[i][j]==1){
-                r=i;
-                c=j;
-                ans=(3-i)+(3-j);
+    ll x;
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            cin>>x;
+            if(x==1){
+                cout<<abs(i-3)+abs(j-3)<<endl;
+                return;
             }
         }
     }
-    cout<<3-r+3-c<<ans<<endl;
-
 }
 
 int main(){
