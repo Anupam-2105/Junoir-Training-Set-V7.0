@@ -1,3 +1,6 @@
+// Beautiful Matrix
+// https://codeforces.com/contest/263/problem/A
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long int
